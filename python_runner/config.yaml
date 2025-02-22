@@ -10,12 +10,12 @@ arch:
 startup: "application"
 boot: "auto"
 ports:
-  22223/tcp: 22223  # Custom SSH port
+  22223/tcp: 22223
 map:
-  - config:rw  # Mounts /config
+  - config:rw
 image: "python:3.11-slim"
 init: false
 options:
-  password: "dreamBIG2025!@"
+  password: "yourpassword"
 schema:
   password: str
