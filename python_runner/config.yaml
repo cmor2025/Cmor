@@ -16,6 +16,6 @@ map:
 image: "python:3.11-slim"
 init: false
 options:
-  password: "yourpassword"
+  password: "dreamBIG2025!@"
 schema:
   password: str
